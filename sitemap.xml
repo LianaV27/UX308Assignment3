@@ -12,6 +12,11 @@
     </url>
     <url>
         <loc>
+            http://localhost:8000/contact/
+        </loc>
+    </url>
+    <url>
+        <loc>
             http://localhost:8000/products/fruit-tea/
         </loc>
     </url>
