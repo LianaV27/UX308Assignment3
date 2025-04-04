@@ -17,6 +17,16 @@
     </url>
     <url>
         <loc>
+            http://localhost:8000/about/
+        </loc>
+    </url>
+    <url>
+        <loc>
+            http://localhost:8000/catering/
+        </loc>
+    </url>
+    <url>
+        <loc>
             http://localhost:8000/products/fruit-tea/
         </loc>
     </url>
