@@ -144,3 +144,27 @@ Stack trace:
 #2 [internal function]: IC_EPC_Tracking->fatal()
 #3 {main}
   thrown in /workspaces/UX308Assignment3/.wordpress/wp-content/plugins/ecommerce-product-catalog/includes/tracking.php on line 117
+[04-Apr-2025 03:30:17 UTC] PHP Fatal error:  Out of memory (allocated 35651584) (tried to allocate 2097152 bytes) in /workspaces/UX308Assignment3/.wordpress/wp-content/plugins/ecommerce-product-catalog/includes/register-product.php on line 45
+[04-Apr-2025 03:30:17 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function ic_products_count() in /workspaces/UX308Assignment3/.wordpress/wp-content/plugins/ecommerce-product-catalog/includes/tracking.php:117
+Stack trace:
+#0 /workspaces/UX308Assignment3/.wordpress/wp-content/plugins/ecommerce-product-catalog/includes/tracking.php(551): IC_EPC_Tracking->setup_data()
+#1 /workspaces/UX308Assignment3/.wordpress/wp-content/plugins/ecommerce-product-catalog/includes/tracking.php(481): IC_EPC_Tracking->send_paused_checkin(Array, true)
+#2 [internal function]: IC_EPC_Tracking->fatal()
+#3 {main}
+  thrown in /workspaces/UX308Assignment3/.wordpress/wp-content/plugins/ecommerce-product-catalog/includes/tracking.php on line 117
+[04-Apr-2025 03:30:22 UTC] PHP Fatal error:  Out of memory (allocated 33554432) (tried to allocate 2097152 bytes) in /workspaces/UX308Assignment3/.wordpress/wp-content/plugins/ecommerce-product-catalog/includes/register-product.php on line 145
+[04-Apr-2025 03:30:22 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function ic_products_count() in /workspaces/UX308Assignment3/.wordpress/wp-content/plugins/ecommerce-product-catalog/includes/tracking.php:117
+Stack trace:
+#0 /workspaces/UX308Assignment3/.wordpress/wp-content/plugins/ecommerce-product-catalog/includes/tracking.php(551): IC_EPC_Tracking->setup_data()
+#1 /workspaces/UX308Assignment3/.wordpress/wp-content/plugins/ecommerce-product-catalog/includes/tracking.php(481): IC_EPC_Tracking->send_paused_checkin(Array, true)
+#2 [internal function]: IC_EPC_Tracking->fatal()
+#3 {main}
+  thrown in /workspaces/UX308Assignment3/.wordpress/wp-content/plugins/ecommerce-product-catalog/includes/tracking.php on line 117
+[04-Apr-2025 03:30:24 UTC] PHP Fatal error:  Out of memory (allocated 31457280) (tried to allocate 2097152 bytes) in /workspaces/UX308Assignment3/.wordpress/wp-content/plugins/ecommerce-product-catalog/includes/widgets/category-widget.php on line 205
+[04-Apr-2025 03:30:24 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function ic_products_count() in /workspaces/UX308Assignment3/.wordpress/wp-content/plugins/ecommerce-product-catalog/includes/tracking.php:117
+Stack trace:
+#0 /workspaces/UX308Assignment3/.wordpress/wp-content/plugins/ecommerce-product-catalog/includes/tracking.php(551): IC_EPC_Tracking->setup_data()
+#1 /workspaces/UX308Assignment3/.wordpress/wp-content/plugins/ecommerce-product-catalog/includes/tracking.php(481): IC_EPC_Tracking->send_paused_checkin(Array, true)
+#2 [internal function]: IC_EPC_Tracking->fatal()
+#3 {main}
+  thrown in /workspaces/UX308Assignment3/.wordpress/wp-content/plugins/ecommerce-product-catalog/includes/tracking.php on line 117
