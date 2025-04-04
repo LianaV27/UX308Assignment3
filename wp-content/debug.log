@@ -168,3 +168,21 @@ Stack trace:
 #2 [internal function]: IC_EPC_Tracking->fatal()
 #3 {main}
   thrown in /workspaces/UX308Assignment3/.wordpress/wp-content/plugins/ecommerce-product-catalog/includes/tracking.php on line 117
+[04-Apr-2025 03:31:15 UTC] PHP Fatal error:  Out of memory (allocated 31457280) (tried to allocate 2097152 bytes) in /workspaces/UX308Assignment3/.wordpress/wp-content/plugins/ecommerce-product-catalog/includes/register-product.php on line 145
+[04-Apr-2025 03:31:15 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function ic_products_count() in /workspaces/UX308Assignment3/.wordpress/wp-content/plugins/ecommerce-product-catalog/includes/tracking.php:117
+Stack trace:
+#0 /workspaces/UX308Assignment3/.wordpress/wp-content/plugins/ecommerce-product-catalog/includes/tracking.php(551): IC_EPC_Tracking->setup_data()
+#1 /workspaces/UX308Assignment3/.wordpress/wp-content/plugins/ecommerce-product-catalog/includes/tracking.php(481): IC_EPC_Tracking->send_paused_checkin(Array, true)
+#2 [internal function]: IC_EPC_Tracking->fatal()
+#3 {main}
+  thrown in /workspaces/UX308Assignment3/.wordpress/wp-content/plugins/ecommerce-product-catalog/includes/tracking.php on line 117
+[04-Apr-2025 03:41:40 UTC] PHP Fatal error:  Out of memory (allocated 37748736) (tried to allocate 28672 bytes) in /workspaces/UX308Assignment3/.wordpress/wp-admin/includes/update.php on line 566
+[04-Apr-2025 03:41:40 UTC] PHP Fatal error:  Out of memory (allocated 37748736) (tried to allocate 12288 bytes) in /workspaces/UX308Assignment3/.wordpress/wp-includes/functions.php on line 6893
+[04-Apr-2025 03:41:41 UTC] PHP Fatal error:  Out of memory (allocated 35651584) (tried to allocate 2097152 bytes) in /workspaces/UX308Assignment3/.wordpress/wp-content/plugins/ecommerce-product-catalog/includes/widgets/filter-widgets.php on line 426
+[04-Apr-2025 03:41:41 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function ic_products_count() in /workspaces/UX308Assignment3/.wordpress/wp-content/plugins/ecommerce-product-catalog/includes/tracking.php:117
+Stack trace:
+#0 /workspaces/UX308Assignment3/.wordpress/wp-content/plugins/ecommerce-product-catalog/includes/tracking.php(551): IC_EPC_Tracking->setup_data()
+#1 /workspaces/UX308Assignment3/.wordpress/wp-content/plugins/ecommerce-product-catalog/includes/tracking.php(481): IC_EPC_Tracking->send_paused_checkin(Array, true)
+#2 [internal function]: IC_EPC_Tracking->fatal()
+#3 {main}
+  thrown in /workspaces/UX308Assignment3/.wordpress/wp-content/plugins/ecommerce-product-catalog/includes/tracking.php on line 117
